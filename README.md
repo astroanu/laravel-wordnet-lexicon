@@ -1,1 +1,1 @@
-# wordnet-lexicon
+# laravel-wordnet-lexicon
