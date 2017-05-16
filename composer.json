@@ -1,0 +1,19 @@
+{
+    "name": "astroanu/laravel-wordnet-lexicon",
+    "description": "Wordnet Lexicon DB Wrapper for Laravel",
+    "keywords": ["wordnet", "lexicon", "laravel"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Anuradha Jayathilaka",
+        "email": "astroanu2004@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Astroanu\\Lexicon\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "5.x.x"
+    },
+    "minimum-stability": "dev"
+}
