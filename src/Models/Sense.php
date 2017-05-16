@@ -11,4 +11,9 @@ class Sense extends BaseModel
     {
     	return $this->hasOne(Synset::class, 'synsetno', 'synsetno');
     }    
+
+    /*public function adjectiveMode()
+    {
+    	return $this->hasOne(AdjectiveMode::class)
+    }*/
 }
