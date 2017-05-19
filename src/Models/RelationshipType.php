@@ -2,7 +2,7 @@
 
 namespace Astroanu\Lexicon\Models;
 
-class LexiconRelationshipType extends BaseModel
+class RelationshipType extends BaseModel
 {
 
     protected $table = 'reltype';

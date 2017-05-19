@@ -12,8 +12,8 @@ class Sense extends BaseModel
     	return $this->hasOne(Synset::class, 'synsetno', 'synsetno');
     }    
 
-    /*public function adjectiveMode()
+    public function words()
     {
-    	return $this->hasOne(AdjectiveMode::class)
-    }*/
+    	return $this->belongsToMany(Word::class, 'wordno', 'wordno');
+    }
 }

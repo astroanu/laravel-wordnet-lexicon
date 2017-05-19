@@ -2,7 +2,7 @@
 
 namespace Astroanu\Lexicon\Models;
 
-class LexiconName extends BaseModel
+class LexicalName extends BaseModel
 {
 
     protected $table = 'lexname';
